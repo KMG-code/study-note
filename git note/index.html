@@ -36,6 +36,7 @@
     <p>git config --global user.email [email@email] = 사용자 정보 등록</p>
     <p>git init = 로컬 디렉토리 하나를 선택해서 Git 저장소를 적용</p>
     <hr>
+    <p>cd [.. / 폴더명] = .. 사용시 상위 디렉토리 / 폴더명 사용시 하위 디렉토리로 이동</p>
     <p>touch [name.확장자] = 파일 생성</p>
     <p>git status = 파일 상태 확인</p>
     <p>git add [file] = 실행한 시점의 파일을 Staging Area에 추가(파일 이름에 . 사용시 폴더 안의 모든 파일 추가), <br>
@@ -49,6 +50,7 @@
     <p>git rm --cached [file] = Staging Area에서만 제거, working directory에 있는 파일은 지우지 않고 남겨둠<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         (add 한 파일 다시 add 전으로, Untracked로 변경)</p>
+        <p>* git rm 사용 후 커밋->push하면 리모트 저장소에서도 삭제 *</p><br>
     <p>git commit -m ["save messege"] = 변경사항 커밋(add된 파일[staged]만 commit)</p>
     <p>git remote [저장소 이름(생략가능)]= 리모트 저장소 확인 / -v 옵션 사용시 단축이름과 URL</p>
     <p>git remote add 저장소이름(기본 origin) 링크(https://github.com/계정/리포지토리) = 리모트 저장소 추가</p>
